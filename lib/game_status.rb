@@ -14,4 +14,5 @@ def WIN_COMBINATIONS = [
   [0, 4, 8], #Right to Left
   [2, 4, 6], #Left to Right
   ]
-end
+
+def won?
