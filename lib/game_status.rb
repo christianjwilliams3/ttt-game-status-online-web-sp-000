@@ -15,4 +15,5 @@ def WIN_COMBINATIONS = [
   [2, 4, 6], #Left to Right
   ]
 
-def won?
+def won?(board)
+  WIN_COMBINATIONS.boars {won
