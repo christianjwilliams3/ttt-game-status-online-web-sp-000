@@ -36,9 +36,9 @@ end
 
 def full?(board)
   board.all? {|index| index == "X" || index == "0"
-  
-  
-  
+end
+
+
   
   
   
