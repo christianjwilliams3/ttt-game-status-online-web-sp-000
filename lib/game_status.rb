@@ -16,7 +16,7 @@ def WIN_COMBINATIONS = [
   ]
 
 def won?(board)
-  WIN_COMBINATIONS.boars {win_combo}
+  WIN_COMBINATIONS.boars {win_comboonation}
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
   win_index_3 = win_combination[2]
@@ -29,3 +29,7 @@ def won?(board)
     && position_2 == "X" 
     && position_3 == "X"
     return win_combination
+    else 
+      FALSE
+  end
+end
