@@ -34,7 +34,8 @@ end
   return false 
 end
 
-def full_board(board)
+def full?(board)
+  full
   
   
   
