@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
   [1, 4, 7], #Center Column
   [0, 3, 6], #Left Column
   [0, 4, 8], #Right to Left
-  [2, 4, 6], #Left to Right
+  [2, 4, 6]  #Left to Right
   ]
 
 def won?(board)
